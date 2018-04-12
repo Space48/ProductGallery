@@ -1,0 +1,25 @@
+<div class="pdp-gallery__carousel js-gallery-main">
+    <% _.each(images, function (image) { %>
+        <% if (image.type !== 'video') { %>
+            <div class="pdp-gallery__image js-gallery-image">
+                <img
+                    src="<%= image.img %>"
+                    href="<%= image.full %>"
+                    data-fancybox="product-images"
+                    class="main-image js-main-image"
+                >
+            </div>
+        <% } else { %>
+            <div class="pdp-gallery__image pdp-gallery__image--video js-gallery-image">
+                <iframe class="js-gallery-iframe" data-src="<%= image.videoUrl %>" src='about:blank' frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        <% } %>
+    <% }); %>
+</div>
+<div class="pdp-gallery__thumbnail-carousel js-gallery-thumbnails">
+    <% _.each(images, function (image) { %>
+        <div class="pdp-gallery__thumbnail">
+            <img src="<%= image.thumb %>">
+        </div>
+    <% }); %>
+</div>

@@ -1,0 +1,21 @@
+{
+    "name": "space48/productgallery",
+    "description": "N/A",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "require": {
+        "php": "^7.0.0",
+        "magento/framework": "^100.1.0| ^101.0.0"
+        },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Space48\\ProductGallery\\": ""
+        }
+    }
+}
