@@ -28,9 +28,12 @@ define(['jquery',
 
         galleryUpdate: function (evt, data) {
             var images = data.images;
-            var firstImage = images[0];
 
-            if (firstImage.img) {
+            if (!images) {
+                images = this.config.galleryImagesJson;
+            }
+
+            if (images[0].img) {
                 this.render(images);
             } else if (!_.isEqual(this.currentImages, this.config.galleryImagesJson)) {
                 this.render(this.config.galleryImagesJson);

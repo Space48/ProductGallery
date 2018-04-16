@@ -11,6 +11,9 @@ var config = {
         mixins: {
             'Magento_Swatches/js/swatch-renderer': {
                 'Space48_ProductGallery/js/swatch-renderer-mixin': true
+            },
+            'Magento_ConfigurableProduct/js/configurable': {
+                'Space48_ProductGallery/js/configurable-mixin': true
             }
         }
     }
