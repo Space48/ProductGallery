@@ -6,7 +6,7 @@ Drop-in replacement for Fotorama gallery on product detail page
 
 `composer config repositories.space48-productgallery vcs git@github.com:Space48/ProductGallery.git`
 
-`composer require space48/productgallery:1.0.0`
+`composer require space48/productgallery:^1.0.0`
 
 ## Includes dependencies
 
