@@ -119,7 +119,9 @@ define(['jquery',
 
         fancyboxOpenGallery: function() {
             $.fancybox.open(
-                this.$('img[data-fancybox="product-images"]'), {}, this.carouselActiveIndex()
+                this.$('img[data-fancybox="product-images"]'),
+                this.config.fancyboxOptions || {},
+                this.carouselActiveIndex()
             );
         },
 
