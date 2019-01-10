@@ -1,21 +1,19 @@
 {
-    "name": "space48/productgallery",
-    "description": "N/A",
-    "type": "magento2-module",
-    "version": "1.0.2",
-    "license": [
-        "proprietary"
-    ],
-    "require": {
-        "php": "^7.0.0",
-        "magento/framework": "^100.1.0| ^101.0.0"
-        },
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Space48\\ProductGallery\\": ""
-        }
-    }
+  "name": "space48/productgallery",
+  "description": "Drop-in replacement for Fotorama gallery on product detail page",
+  "type": "magento2-module",
+  "version": "1.0.3",
+  "license": "proprietary",
+  "require": {
+	"php": "~7.0|~7.1",
+	"magento/framework": "^100.1.0|^101.0.0|^102.0.0"
+  },
+  "autoload": {
+	"files": [
+	  "registration.php"
+	],
+	"psr-4": {
+	  "Space48\\ProductGallery\\": ""
+	}
+  }
 }
