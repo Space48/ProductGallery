@@ -2,7 +2,7 @@
   "name": "space48/productgallery",
   "description": "Drop-in replacement for Fotorama gallery on product detail page",
   "type": "magento2-module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "proprietary",
   "require": {
 	"php": "~7.0|~7.1",
