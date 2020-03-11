@@ -2,7 +2,7 @@ define(['jquery', 'mage/template', 'productGallery'], function($, template, prod
     return function(originalWidget){
         $.widget(
             'mage.SwatchRenderer', $['mage']['SwatchRenderer'], {
-                processUpdateBaseImage: function (images, context, isInProductView, gallery) {
+                updateBaseImage: function (images, context, isInProductView, gallery) {
                     var justAnImage = images[0],
                         initialImages = this.options.mediaGalleryInitial,
                         imagesToUpdate,
