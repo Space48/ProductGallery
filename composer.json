@@ -5,7 +5,7 @@
   "version": "1.0.5",
   "license": "proprietary",
   "require": {
-	"php": "~7.0|~7.1|~7.2|~7.3|~7.4",
+	"php": "~7.0|~7.1|~7.2|~7.3|~7.4|~8.1",
 	"magento/framework": "^100.1.0|^101.0.0|^102.0.0|^103.0.0"
   },
   "repositories": {
